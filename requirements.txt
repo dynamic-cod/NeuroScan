@@ -1,5 +1,6 @@
 # Core requirements
-Django>=4.2.0
+# Pin to a modern stable Django; project targets Django 5.2 per spec
+Django>=5.2,<6.0
 scikit-learn>=1.0.2
 numpy>=1.21.0
 pandas>=1.3.0

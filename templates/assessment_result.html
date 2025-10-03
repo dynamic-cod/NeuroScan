@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Assessment Result</h2>
+<p>Predicted State: {{ assessment.predicted_state }}</p>
+<p>Risk Level: {{ assessment.risk_level }}</p>
+<p>Recommendation: {{ assessment.recommendation }}</p>
+<a href="/assessment/">Start again</a>
+{% endblock %}
